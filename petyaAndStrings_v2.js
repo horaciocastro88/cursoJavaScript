@@ -3,9 +3,9 @@
 const fs = require('fs');
 
 /** 
-* @param {string};
-* @param {string};
-* @returns {number};
+* @param {string} primerStr
+* @param {string} segundoStr
+* @returns {number}
 */
 
 const resolver = (primerStr, segundoStr) => {
@@ -13,6 +13,9 @@ const resolver = (primerStr, segundoStr) => {
     return Math.sign(primerStr.toLowerCase().localeCompare(segundoStr.toLowerCase()));
 
 };
+
+//  Si queremos usar el retorno implicito y una sola linea:
+//  const resolver = (str1, str2) => Math.sign(str1.toLowerCase().localeCompare(str2.toLowerCase()));
 
 const main = () => {
 
