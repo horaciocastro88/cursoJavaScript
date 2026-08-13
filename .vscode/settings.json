@@ -1,0 +1,34 @@
+{
+  // Usar 2 espacios para sangría (el estándar en la comunidad de JS)
+  "editor.tabSize": 2,
+
+  // Insertar espacios al presionar Tab
+  "editor.insertSpaces": true,
+
+  // Dar formato al código automáticamente cada vez que presionas Ctrl + S (Guardar)
+  "editor.formatOnSave": true,
+
+  // Definir JavaScript como el lenguaje por defecto para formatear con el formateador interno/Prettier
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggest.insertMode": "replace"
+  },
+
+  // Mostrar sugerencias automáticas de autocompletado mientras escribes
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+
+  // Resaltar paréntesis y llaves del mismo color para no perderse en los bloques
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+
+  // Ocultar archivos generados o carpetas pesadas del explorador de VS Code
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  }
+}

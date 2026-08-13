@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode", // Formateador de código profesional
+    "ritwickdey.liveserver", // Servidor local para ver tus archivos HTML/JS en vivo
+    "formulahendry.code-runner" // Botón para ejecutar archivos .js directo con Node.js
+  ]
+}
